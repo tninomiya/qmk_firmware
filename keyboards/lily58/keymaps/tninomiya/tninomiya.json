@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "notes": "",
+  "notes": "最高のキーマップ",
   "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
   "keyboard": "lily58/rev1",
-  "keymap": "dvorak",
+  "keymap": "tninomiya",
   "layout": "LAYOUT",
   "layers": [
     [
@@ -68,16 +68,16 @@
     ],
     [
       "KC_ESC",
-      "KC_TRNS",
-      "KC_TRNS",
-      "KC_TRNS",
-      "KC_TRNS",
-      "KC_TRNS",
-      "KC_TRNS",
-      "KC_TRNS",
-      "KC_TRNS",
-      "KC_TRNS",
-      "KC_TRNS",
+      "KC_F1",
+      "KC_F2",
+      "KC_F3",
+      "KC_F4",
+      "KC_F5",
+      "KC_F6",
+      "KC_F7",
+      "KC_F8",
+      "KC_F9",
+      "KC_F10",
       "KC_BSLS",
       "KC_TAB",
       "KC_EXLM",
@@ -122,7 +122,7 @@
       "KC_TRNS",
       "KC_SPC",
       "KC_ENT",
-      "KC_NO",
+      "KC_RGUI",
       "KC_BSPC",
       "KC_RGUI"
     ],
@@ -187,5 +187,5 @@
       "KC_LGUI"
     ]
   ],
-  "author": ""
+  "author": "tninomiya"
 }
